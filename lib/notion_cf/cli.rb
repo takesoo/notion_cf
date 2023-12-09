@@ -7,5 +7,10 @@ module NotionCf
     def version
       puts NotionCf::VERSION
     end
+
+    desc "generate", "Generate a new Notion page"
+    def generate
+      puts "Generating a new Notion page..."
+    end
   end
 end
