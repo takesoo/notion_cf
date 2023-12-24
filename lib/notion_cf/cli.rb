@@ -16,8 +16,8 @@ module NotionCf
     def deploy(page_id, template_file)
       pp children = Template.new(file: template_file).request_body
       client = Notion::Client.new(token: ENV['NOTION_API_TOKEN'])
-      page = client.block_append_children(block_id: page_id, children:)
-      pp page
+      pp client.block_append_children(block_id: page_id, children:)
+      generate(page_id)
     end
 
     desc 'generate PAGE_ID', 'Generate yaml file from Notion page'

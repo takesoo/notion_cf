@@ -1,5 +1,6 @@
 require 'yaml'
 require 'json'
+require 'pry-byebug'
 
 module NotionCf
   # Template class
@@ -27,9 +28,8 @@ module NotionCf
     end
 
     def request_body
-      # binding.pry
       available_types_string = AVAILABLE_TYPES.map(&:to_s)
-      @hash[:results].filter_map do |child|
+      @hash.filter_map do |child|
         child.slice(*AVAILABLE_KEYS) if available_types_string.include?(child[:type])
       end
     end

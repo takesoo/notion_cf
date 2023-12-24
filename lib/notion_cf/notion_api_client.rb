@@ -13,7 +13,7 @@ module NotionCf
     # end
 
     def block_children(block_id:)
-      @client.block_children(block_id:)
+      @client.block_children(block_id:)[:results]
     end
   end
 end
