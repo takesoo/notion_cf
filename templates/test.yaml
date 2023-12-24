@@ -1,26 +1,26 @@
 -
   object: block
-  id: b67c7e52-2cd5-410f-a917-d93a3ed75677
+  id: b1169d4f-2174-483d-a270-880c77277177
   parent:
     type: page_id
     page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-09T11:57:00.000Z'
-  last_edited_time: '2023-12-16T08:17:00.000Z'
+  created_time: '2023-12-24T09:02:00.000Z'
+  last_edited_time: '2023-12-24T09:02:00.000Z'
   created_by:
     object: user
     id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   last_edited_by:
     object: user
     id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
+  has_children: true
   archived: false
-  type: paragraph
-  paragraph:
+  type: callout
+  callout:
     rich_text:
     -
       type: text
       text:
-        content: paragraph
+        content: call out
         link:
       annotations:
         bold: false
@@ -29,40 +29,112 @@
         underline: false
         code: false
         color: default
-      plain_text: paragraph
+      plain_text: call out
       href:
-    color: default
--
-  object: block
-  id: b67c7e52-2cd5-410f-a917-d93a3ed75677
-  parent:
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-09T11:57:00.000Z'
-  last_edited_time: '2023-12-16T08:17:00.000Z'
-  created_by:
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by:
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: paragraph
-  paragraph:
-    rich_text:
+    icon:
+      type: emoji
+      emoji: 🥺
+    color: gray_background
+    children:
     -
-      type: text
-      text:
-        content: paragraph
-        link:
-      annotations:
-        bold: false
-        italic: false
-        strikethrough: false
-        underline: false
-        code: false
+      object: block
+      id: 5d61bae2-813f-4a62-9b12-6e5823679996
+      parent:
+        type: block_id
+        block_id: b1169d4f-2174-483d-a270-880c77277177
+      created_time: '2023-12-24T09:02:00.000Z'
+      last_edited_time: '2023-12-24T09:02:00.000Z'
+      created_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      last_edited_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      has_children: false
+      archived: false
+      type: bulleted_list_item
+      bulleted_list_item:
+        rich_text:
+        -
+          type: text
+          text:
+            content: A
+            link:
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: default
+          plain_text: A
+          href:
         color: default
-      plain_text: paragraph2
-      href:
-    color: default
+    -
+      object: block
+      id: dc23ca77-5e87-4aaf-9587-906c0a7d3546
+      parent:
+        type: block_id
+        block_id: b1169d4f-2174-483d-a270-880c77277177
+      created_time: '2023-12-24T09:02:00.000Z'
+      last_edited_time: '2023-12-24T09:02:00.000Z'
+      created_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      last_edited_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      has_children: false
+      archived: false
+      type: bulleted_list_item
+      bulleted_list_item:
+        rich_text:
+        -
+          type: text
+          text:
+            content: B
+            link:
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: default
+          plain_text: B
+          href:
+        color: default
+    -
+      object: block
+      id: 8c97ed9a-a640-45d8-b4ed-4b843711e582
+      parent:
+        type: block_id
+        block_id: b1169d4f-2174-483d-a270-880c77277177
+      created_time: '2023-12-24T09:02:00.000Z'
+      last_edited_time: '2023-12-24T09:02:00.000Z'
+      created_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      last_edited_by:
+        object: user
+        id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+      has_children: false
+      archived: false
+      type: bulleted_list_item
+      bulleted_list_item:
+        rich_text:
+        -
+          type: text
+          text:
+            content: C
+            link:
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: default
+          plain_text: C
+          href:
+        color: default
