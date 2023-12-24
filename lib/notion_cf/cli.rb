@@ -35,9 +35,9 @@ module NotionCf
       children = NotionApiClient.new.block_children(block_id: block[:id])
       parent = blocks.detect { |h| h[:id] == block[:id] }
       block_type = block[:type].to_sym
-      parent[block_type] = children
+      parent[block_type][:children] = children
       children.filter_map do |child|
-        retrieve_children(child, parent[block_type]) if child[:has_children]
+        retrieve_children(child, parent[block_type][:children]) if child[:has_children]
       end
     end
   end

@@ -28,10 +28,11 @@ module NotionCf
     end
 
     def request_body
-      available_types_string = AVAILABLE_TYPES.map(&:to_s)
-      @hash.filter_map do |child|
-        child.slice(*AVAILABLE_KEYS) if available_types_string.include?(child[:type])
-      end
+      @hash
+      # available_types_string = AVAILABLE_TYPES.map(&:to_s)
+      # @hash.filter_map do |child|
+      #   child.slice(*AVAILABLE_KEYS) if available_types_string.include?(child[:type])
+      # end
     end
   end
 end
