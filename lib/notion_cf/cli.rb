@@ -16,7 +16,7 @@ module NotionCf
     def deploy(page_id, template_file)
       pp children = Template.new(file: template_file).request_body
       client = Notion::Client.new(token: ENV['NOTION_API_TOKEN'])
-      pp client.block_append_children(block_id: page_id, children:)
+      client.block_append_children(block_id: page_id, children:)
       generate(page_id)
     end
 
