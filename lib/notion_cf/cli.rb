@@ -23,7 +23,8 @@ module NotionCf
     desc 'generate PAGE_ID', 'Generate yaml file from Notion page'
     def generate(page_id)
       children = NotionCf::NotionApiClient.new.block_children(block_id: page_id)
-      NotionCf::Template.new(hash: children, page_id:).create
+      file_path = NotionCf::Template.new(hash: children, page_id:).create
+      puts "created #{file_path}"
     end
   end
 end

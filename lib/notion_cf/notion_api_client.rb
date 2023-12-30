@@ -12,6 +12,7 @@ module NotionCf
       children = retrieve_children(block_id)
       children.filter_map do |child|
         retrieve_grand_children(child, children) if child[:has_children]
+        retrieve_database(child, children) if child[:type] == 'child_database' && !child[:child_database][:title].empty?
       end
       children
     end
@@ -30,6 +31,12 @@ module NotionCf
       children.filter_map do |child|
         retrieve_grand_children(child, parent[block_type][:children]) if child[:has_children]
       end
+    end
+
+    def retrieve_database(block, blocks)
+      database_detail = @client.database(database_id: block[:id])
+      parent = blocks.detect { |h| h[:id] == block[:id] }
+      parent[:child_database].merge!(database_detail)
     end
   end
 end

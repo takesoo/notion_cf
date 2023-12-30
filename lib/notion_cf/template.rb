@@ -25,8 +25,9 @@ module NotionCf
 
     def create
       yaml = YAML.dump(@hash).gsub(%r{!ruby/(\w|:)*}, '') # ハッシュをyamlに変換する際に出力される!ruby/hash:Notion::Blockみたいな文字列を削除する
-      File.open("templates/#{@page_id}.yaml", 'w') { |file| file.write(yaml) }
-      puts "created templates/#{@page_id}.yaml"
+      file_path = "templates/#{@page_id}.yaml"
+      File.open(file_path, 'w') { |file| file.write(yaml) }
+      file_path
     end
 
     def request_body
