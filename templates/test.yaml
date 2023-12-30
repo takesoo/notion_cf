@@ -1,19 +1,8 @@
 - 
-  object: block
-  # id: 2239568f-7bd3-47e5-a375-69d2e76dfdd3
+  object: page
   parent: 
     type: page_id
     page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-16T08:19:00.000Z'
-  last_edited_time: '2023-12-16T08:19:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: true
-  archived: false
   type: table
   table: 
     table_width: 2
