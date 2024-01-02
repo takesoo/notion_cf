@@ -13,6 +13,7 @@ module NotionCf
       children.filter_map do |child|
         retrieve_grand_children(child, children) if child[:has_children]
         retrieve_database(child, children) if child[:type] == 'child_database' && !child[:child_database][:title].empty?
+        retrieve_page(child, children) if child[:type] == 'child_page'
       end
       children
     end
@@ -24,6 +25,11 @@ module NotionCf
     def create_database(blueprint)
       parameter = blueprint[:child_database].except(:request_id)
       @client.create_database(parameter)
+    end
+
+    def create_page(blueprint)
+      parameter = blueprint[:child_page].except(:request_id, :title)
+      @client.create_page(parameter)
     end
 
     private
@@ -46,6 +52,12 @@ module NotionCf
       database_detail = @client.database(database_id: block[:id])
       parent = blocks.detect { |h| h[:id] == block[:id] }
       parent[:child_database].merge!(database_detail)
+    end
+
+    def retrieve_page(block, blocks)
+      page_detail = @client.page(page_id: block[:id])
+      parent = blocks.detect { |h| h[:id] == block[:id] }
+      parent[:child_page].merge!(page_detail)
     end
   end
 end

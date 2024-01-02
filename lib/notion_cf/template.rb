@@ -6,13 +6,12 @@ module NotionCf
   # Template class
   class Template
     # rubocop:disable Naming/VariableNumber
-    # TODO: child_page
     # unsupportedはNotion APIで作成できないので、テンプレートファイルには含めない
     AVAILABLE_TYPES = %i[paragraph to_do heading_1 heading_2 heading_3 bulleted_list_item
                          numbered_list_item toggle quote divider link_to_page callout image bookmark video
                          audio code file table_of_contents equation breadcrumb synced_block column_list
-                         table child_database].freeze
-    AVAILABLE_KEYS = (%i[object type] + AVAILABLE_TYPES).freeze
+                         table child_database child_page].freeze
+    AVAILABLE_KEYS = (%i[object type parent] + AVAILABLE_TYPES).freeze
     # rubocop:enable Naming/VariableNumber
     def initialize(hash: nil, page_id: nil, file: nil)
       @page_id = page_id if page_id
