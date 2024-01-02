@@ -17,6 +17,15 @@ module NotionCf
       children
     end
 
+    def block_append_children(block_id:, children:)
+      @client.block_append_children(block_id:, children:)
+    end
+
+    def create_database(blueprint)
+      parameter = blueprint[:child_database].except(:request_id)
+      @client.create_database(parameter)
+    end
+
     private
 
     def retrieve_children(block_id)

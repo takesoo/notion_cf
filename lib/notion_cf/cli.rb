@@ -2,6 +2,7 @@ require 'notion_cf'
 require 'thor'
 require_relative 'notion_api_client'
 require_relative 'template'
+require_relative 'resources'
 require 'pry-byebug'
 
 module NotionCf
@@ -14,9 +15,8 @@ module NotionCf
 
     desc 'deploy PAGE_ID TEMPLATE_FILE', 'Generate a new Notion page'
     def deploy(page_id, template_file)
-      children = Template.new(file: template_file).request_body
-      client = Notion::Client.new(token: ENV['NOTION_API_TOKEN'])
-      client.block_append_children(block_id: page_id, children:)
+      blueprints = Template.new(file: template_file).blueprints
+      NotionCf::Resources.new(page_id:).deploy(blueprints)
       generate(page_id)
     end
 

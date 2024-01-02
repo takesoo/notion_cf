@@ -6,12 +6,12 @@ module NotionCf
   # Template class
   class Template
     # rubocop:disable Naming/VariableNumber
-    # TODO: child_page child_database
+    # TODO: child_page
     # unsupportedはNotion APIで作成できないので、テンプレートファイルには含めない
     AVAILABLE_TYPES = %i[paragraph to_do heading_1 heading_2 heading_3 bulleted_list_item
                          numbered_list_item toggle quote divider link_to_page callout image bookmark video
                          audio code file table_of_contents equation breadcrumb synced_block column_list
-                         table].freeze
+                         table child_database].freeze
     AVAILABLE_KEYS = (%i[object type] + AVAILABLE_TYPES).freeze
     # rubocop:enable Naming/VariableNumber
     def initialize(hash: nil, page_id: nil, file: nil)
@@ -30,11 +30,30 @@ module NotionCf
       file_path
     end
 
-    def request_body
+    # yamlテンプレートからhash形式の設計図を生成する
+    def blueprints
       available_types_string = AVAILABLE_TYPES.map(&:to_s)
       @hash.filter_map do |child|
-        child.slice(*AVAILABLE_KEYS) if available_types_string.include?(child[:type])
+        child.slice(*AVAILABLE_KEYS) if available_block_type?(child, available_types_string)
       end
+    end
+
+    private
+
+    def available_block_type?(child, available_types_string)
+      return false if linked_database?(child) # linked_databaseはNotion APIで作成できないので、request_bodyには含めない
+      return true if available_block?(child, available_types_string)
+
+      false
+    end
+
+    def available_block?(child, available_types_string)
+      available_types_string.include?(child[:type])
+    end
+
+    # child_databaseのtitleが空の場合は、linked_databaseとして扱う
+    def linked_database?(child)
+      child[:type] == 'child_database' && child[:child_database][:title].empty?
     end
   end
 end
