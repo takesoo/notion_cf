@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module NotionCf
   # block, page, databaseなどリソースの集合
   # FirstClassCollectionパターン(?)
@@ -5,6 +7,7 @@ module NotionCf
     def initialize(page_id:)
       @client = NotionCf::NotionApiClient.new
       @page_id = page_id
+      @resources = []
     end
 
     def deploy(blueprints)
@@ -18,6 +21,18 @@ module NotionCf
         append_up_to_now(block_blueprints, resource)
       end
       block_append_children(block_blueprints)
+    end
+
+    def retrieve
+      blueprints = @client.block_children(block_id: @page_id)
+      blueprints.each do |blueprint|
+        resource = NotionCf::Resource.build_resource(blueprint)
+        @resources << resource
+      end
+    end
+
+    def blueprints
+      @resources.map(&:blueprint)
     end
 
     private
