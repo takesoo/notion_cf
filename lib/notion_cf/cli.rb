@@ -1,8 +1,14 @@
 require 'notion_cf'
 require 'thor'
+require 'notion-ruby-client'
+require 'dotenv/load'
 require_relative 'notion_api_client'
 require_relative 'template'
 require_relative 'resources'
+require_relative 'resource'
+require_relative 'block_resource'
+require_relative 'page_resource'
+require_relative 'database_resource'
 require 'pry-byebug'
 
 module NotionCf

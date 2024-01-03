@@ -1,6 +1,3 @@
-require 'notion-ruby-client'
-require 'dotenv/load'
-
 module NotionCf
   # Notion API client
   class NotionApiClient
@@ -22,13 +19,11 @@ module NotionCf
       @client.block_append_children(block_id:, children:)
     end
 
-    def create_database(blueprint)
-      parameter = blueprint[:child_database].except(:request_id)
+    def create_database(parameter)
       @client.create_database(parameter)
     end
 
-    def create_page(blueprint)
-      parameter = blueprint[:child_page].except(:request_id, :title)
+    def create_page(parameter)
       @client.create_page(parameter)
     end
 
