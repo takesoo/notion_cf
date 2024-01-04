@@ -380,22 +380,89 @@
     description:  []
     is_inline: true
     properties: 
-      タグ: 
-        id: BDAB
-        name: タグ
+      title: 
+        name: title
+        type: title
+        title:  {}
+      rich_text: 
+        name: rich_text
+        type: rich_text
+        rich_text:  {}
+      number: 
+        name: number
+        type: number
+        number: 
+          format: number
+      select: 
+        name: select
+        type: select
+        select: 
+          options:  []
+      multi_select: 
+        name: multi_select
         type: multi_select
         multi_select: 
           options:  []
-      日付: 
-        id: Bsc%60
-        name: 日付
+      date: 
+        name: date
         type: date
         date:  {}
-      名前: 
-        id: title
-        name: 名前
-        type: title
-        title:  {}
+      people: 
+        name: people
+        type: people
+        people:  {}
+      files: 
+        name: files
+        type: files
+        files:  {}
+      checkbox: 
+        name: checkbox
+        type: checkbox
+        checkbox:  {}
+      url: 
+        name: url
+        type: url
+        url:  {}
+      email: 
+        name: email
+        type: email
+        email:  {}
+      phone_number: 
+        name: phone_number
+        type: phone_number
+        phone_number:  {}
+      formula: 
+        name: formula
+        type: formula
+        formula: 
+          expression: ''
+      # relation: 
+      #   name: relation
+      #   type: relation
+      #   relation: 
+      #     database_id: {database_id}
+      #     synced_property_name: relation
+      created_time: 
+        name: created_time
+        type: created_time
+        created_time:  {}
+      created_by: 
+        name: created_by
+        type: created_by
+        created_by:  {}
+      last_edited_time: 
+        name: last_edited_time
+        type: last_edited_time
+        last_edited_time:  {}
+      last_edited_by: 
+        name: last_edited_by
+        type: last_edited_by
+        last_edited_by:  {}
+      id: 
+        name: id
+        type: unique_id
+        unique_id: 
+          prefix:
     archived: false
 - 
   object: block
