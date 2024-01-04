@@ -1,148 +1,6 @@
---- 
+---
 - 
   object: block
-  id: eb3e5b2d-c549-477f-9055-6006e207dfc8
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T12:54:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: child_database
-  child_database: 
-    title: 
-    - 
-      type: text
-      text: 
-        content: notion_cf_db
-        link:
-      annotations: 
-        bold: false
-        italic: false
-        strikethrough: false
-        underline: false
-        code: false
-        color: default
-      plain_text: notion_cf_db
-      href:
-    object: database
-    id: eb3e5b2d-c549-477f-9055-6006e207dfc8
-    cover:
-    icon:
-    created_time: '2023-12-30T11:53:00.000Z'
-    created_by: 
-      object: user
-      id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-    last_edited_by: 
-      object: user
-      id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-    last_edited_time: '2023-12-30T12:54:00.000Z'
-    description:  []
-    is_inline: true
-    properties: 
-      日付: 
-        id: JLDa
-        name: 日付
-        type: date
-        date:  {}
-      タグ: 
-        id: "~H%3AI"
-        name: タグ
-        type: multi_select
-        multi_select: 
-          options:  []
-      名前: 
-        id: title
-        name: 名前
-        type: title
-        title:  {}
-    parent: 
-      type: page_id
-      page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-    url: https://www.notion.so/eb3e5b2dc549477f90556006e207dfc8
-    public_url:
-    archived: false
-    request_id: 5f6c4e52-bcfc-4d8f-969e-2db2cc33823e
-- 
-  object: block
-  id: 77b1b2c2-6cad-4028-a6d2-04a68123fa79
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: child_database
-  child_database: 
-    title: ''
-- 
-  object: block
-  id: 599f27f2-ddf2-4773-9ac1-ae9498476a85
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:23:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: paragraph
-  paragraph: 
-    rich_text:  []
-    color: default
-- 
-  object: block
-  id: 13cc4e11-074e-4ce3-af0a-86329bec0a87
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: embed
-  embed: 
-    caption:  []
-    url: https://www.youtube.com/embed/-FDZ0ttbddo?si=4GFmTJkZy6qw9URF
-- 
-  object: block
-  id: b377d53b-70fd-4de9-91bb-8c9163cc57d5
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: paragraph
@@ -165,18 +23,6 @@
     color: default
 - 
   object: block
-  id: d5d8f9cb-4964-4cc0-a63e-89e31bb4058b
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: to_do
@@ -200,18 +46,6 @@
     color: default
 - 
   object: block
-  id: 4522d08d-992f-4f5f-97e6-9f667f421c1f
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_1
@@ -235,18 +69,6 @@
     color: default
 - 
   object: block
-  id: 3b57a7eb-3e5f-4f1a-b7e7-e569ddc60317
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_2
@@ -270,18 +92,6 @@
     color: default
 - 
   object: block
-  id: d585f8a9-a524-40d3-92c6-a3c9e948b8ec
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_3
@@ -305,18 +115,6 @@
     color: default
 - 
   object: block
-  id: 558bb176-831e-4fd1-bd56-6a20acdcc2b0
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: table
@@ -327,18 +125,6 @@
     children: 
     - 
       object: block
-      id: 616f9119-6291-4438-82c7-be70c823eff4
-      parent: 
-        type: block_id
-        block_id: 558bb176-831e-4fd1-bd56-6a20acdcc2b0
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: false
       archived: false
       type: table_row
@@ -362,18 +148,6 @@
         -  []
     - 
       object: block
-      id: 789b588e-2229-4d3d-bb61-f6fa55d960f2
-      parent: 
-        type: block_id
-        block_id: 558bb176-831e-4fd1-bd56-6a20acdcc2b0
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: false
       archived: false
       type: table_row
@@ -383,18 +157,6 @@
         -  []
     - 
       object: block
-      id: d98bee44-360e-4cb3-9143-6adf3b493f7f
-      parent: 
-        type: block_id
-        block_id: 558bb176-831e-4fd1-bd56-6a20acdcc2b0
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: false
       archived: false
       type: table_row
@@ -404,18 +166,6 @@
         -  []
 - 
   object: block
-  id: 872dc75f-ce94-4a65-abc8-5007b9ff8dc5
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: bulleted_list_item
@@ -438,18 +188,6 @@
     color: default
 - 
   object: block
-  id: 560d0991-79a8-4f15-bf55-e34e05dbadbd
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: numbered_list_item
@@ -472,18 +210,6 @@
     color: default
 - 
   object: block
-  id: '08a0df0f-2fab-434d-baa5-2ee0065bf33e'
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: toggle
@@ -506,18 +232,6 @@
     color: default
 - 
   object: block
-  id: 94c7d89b-8146-4acd-9743-07804a684778
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: quote
@@ -540,36 +254,12 @@
     color: default
 - 
   object: block
-  id: 45e54c36-87a2-45a6-ab87-1674afd844bb
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: divider
   divider:  {}
 - 
   object: block
-  id: ed17ed11-59a0-4530-a1b5-d8b71b8eaa37
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: link_to_page
@@ -578,18 +268,6 @@
     page_id: d7bf3387-783c-4ee9-aecf-6e40e56b2063
 - 
   object: block
-  id: fb211b41-3b93-4d73-83fb-1422180d068b
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: callout
@@ -615,18 +293,6 @@
     color: gray_background
 - 
   object: block
-  id: d9773fb8-b2cd-4f17-b424-0d647c583339
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: image
@@ -637,18 +303,6 @@
       url: https://images.unsplash.com/photo-1429041966141-44d228a42775?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb
 - 
   object: block
-  id: e661aecf-e71a-4467-a394-bcf5c8ce17a6
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: bookmark
@@ -657,18 +311,6 @@
     url: https://images.unsplash.com/photo-1429041966141-44d228a42775?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb
 - 
   object: block
-  id: b48586c7-2910-4de2-92c4-4f89b2a43467
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: video
@@ -679,18 +321,6 @@
       url: https://www.youtube.com/embed/-FDZ0ttbddo?si=4GFmTJkZy6qw9URF
 - 
   object: block
-  id: 48cce9a7-6525-4d07-a776-5d0790d272be
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: code
@@ -714,18 +344,6 @@
     language: shell
 - 
   object: block
-  id: 3c3985c5-ac43-4ce2-8588-011e8712a173
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: file
@@ -737,18 +355,50 @@
     name: fake file
 - 
   object: block
-  id: 55d484d8-85ca-43df-9ae5-d68c3593c0ee
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
+  has_children: false
+  archived: false
+  type: child_database
+  child_database: 
+    title: 
+    - 
+      type: text
+      text: 
+        content: notion_cf_db
+        link:
+      annotations: 
+        bold: false
+        italic: false
+        strikethrough: false
+        underline: false
+        code: false
+        color: default
+      plain_text: notion_cf_db
+      href:
+    object: database
+    cover:
+    icon:
+    description:  []
+    is_inline: true
+    properties: 
+      タグ: 
+        id: BDAB
+        name: タグ
+        type: multi_select
+        multi_select: 
+          options:  []
+      日付: 
+        id: Bsc%60
+        name: 日付
+        type: date
+        date:  {}
+      名前: 
+        id: title
+        name: 名前
+        type: title
+        title:  {}
+    archived: false
+- 
+  object: block
   has_children: false
   archived: false
   type: table_of_contents
@@ -756,18 +406,6 @@
     color: gray
 - 
   object: block
-  id: 163f4c16-f697-432b-b8d1-505fdb4757c6
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: equation
@@ -775,36 +413,12 @@
     expression: math
 - 
   object: block
-  id: '0586c583-d269-4ddb-bc9e-1ae9e362b447'
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: breadcrumb
   breadcrumb:  {}
 - 
   object: block
-  id: 9b1f236c-9736-460e-bbcd-e7ccd57cc27b
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: synced_block
@@ -813,18 +427,6 @@
     children: 
     - 
       object: block
-      id: 34a6fbe3-ca6d-48a0-8889-930123f766c2
-      parent: 
-        type: block_id
-        block_id: 9b1f236c-9736-460e-bbcd-e7ccd57cc27b
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: false
       archived: false
       type: paragraph
@@ -833,18 +435,6 @@
         color: default
 - 
   object: block
-  id: 9338861b-11ac-479d-9035-afcc3a87d2dc
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_1
@@ -868,18 +458,6 @@
     color: default
 - 
   object: block
-  id: 1312f75c-68df-4c82-aa07-523d9fb8bfdf
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_2
@@ -903,18 +481,6 @@
     color: default
 - 
   object: block
-  id: 39d199da-a693-41da-86d2-2924cb49f7e0
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: heading_3
@@ -938,18 +504,6 @@
     color: default
 - 
   object: block
-  id: 56cd489a-f057-4dd3-9063-e18f191c0242
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: column_list
@@ -957,18 +511,6 @@
     children: 
     - 
       object: block
-      id: 003d43c8-5b9e-4b68-bcbe-8f80ddaca516
-      parent: 
-        type: block_id
-        block_id: 56cd489a-f057-4dd3-9063-e18f191c0242
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -976,18 +518,6 @@
         children: 
         - 
           object: block
-          id: 748432bf-78e9-4ad4-b3ef-f6d70f3cd07e
-          parent: 
-            type: block_id
-            block_id: 003d43c8-5b9e-4b68-bcbe-8f80ddaca516
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1010,18 +540,6 @@
             color: default
     - 
       object: block
-      id: 50e0dcc4-147c-44d2-bcac-2f0f99477b67
-      parent: 
-        type: block_id
-        block_id: 56cd489a-f057-4dd3-9063-e18f191c0242
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1029,18 +547,6 @@
         children: 
         - 
           object: block
-          id: 5a110dc8-9a8b-4343-9aaf-50926749c45f
-          parent: 
-            type: block_id
-            block_id: 50e0dcc4-147c-44d2-bcac-2f0f99477b67
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1063,18 +569,6 @@
             color: default
 - 
   object: block
-  id: 2d5a7175-120e-401b-a324-ffd06b92cf61
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: column_list
@@ -1082,18 +576,6 @@
     children: 
     - 
       object: block
-      id: 060a1859-e93a-42c9-966a-69d71434b812
-      parent: 
-        type: block_id
-        block_id: 2d5a7175-120e-401b-a324-ffd06b92cf61
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1101,18 +583,6 @@
         children: 
         - 
           object: block
-          id: 3ff29a77-51c3-45e9-9478-5af3c6f5dec5
-          parent: 
-            type: block_id
-            block_id: 060a1859-e93a-42c9-966a-69d71434b812
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1135,18 +605,6 @@
             color: default
     - 
       object: block
-      id: e238e05e-6664-4071-95b0-48cb4785a61b
-      parent: 
-        type: block_id
-        block_id: 2d5a7175-120e-401b-a324-ffd06b92cf61
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1154,18 +612,6 @@
         children: 
         - 
           object: block
-          id: dfca6ca4-e1d5-4d90-ac8d-fb304572bdae
-          parent: 
-            type: block_id
-            block_id: e238e05e-6664-4071-95b0-48cb4785a61b
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1188,18 +634,6 @@
             color: default
     - 
       object: block
-      id: 0ac9cd52-bdb4-492d-88a0-ab0095a48eb6
-      parent: 
-        type: block_id
-        block_id: 2d5a7175-120e-401b-a324-ffd06b92cf61
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1207,18 +641,6 @@
         children: 
         - 
           object: block
-          id: a069a176-39db-498a-befa-1f04ac0d05c7
-          parent: 
-            type: block_id
-            block_id: 0ac9cd52-bdb4-492d-88a0-ab0095a48eb6
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1241,18 +663,6 @@
             color: default
 - 
   object: block
-  id: 8826e341-d3df-451b-9e67-60433c6a2cca
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: column_list
@@ -1260,18 +670,6 @@
     children: 
     - 
       object: block
-      id: dd20f86c-a314-42d4-aedd-5e28ff3c3ae2
-      parent: 
-        type: block_id
-        block_id: 8826e341-d3df-451b-9e67-60433c6a2cca
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1279,18 +677,6 @@
         children: 
         - 
           object: block
-          id: c7180dc8-240b-4751-b3fc-8ccfa977323c
-          parent: 
-            type: block_id
-            block_id: dd20f86c-a314-42d4-aedd-5e28ff3c3ae2
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1313,18 +699,6 @@
             color: default
     - 
       object: block
-      id: c0f76fab-f9cf-4b96-9ded-8b6af21d390f
-      parent: 
-        type: block_id
-        block_id: 8826e341-d3df-451b-9e67-60433c6a2cca
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1332,18 +706,6 @@
         children: 
         - 
           object: block
-          id: 8cb0e0e1-e82e-41a9-8469-c97eb7009127
-          parent: 
-            type: block_id
-            block_id: c0f76fab-f9cf-4b96-9ded-8b6af21d390f
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1366,18 +728,6 @@
             color: default
     - 
       object: block
-      id: 29e04c34-5a70-49a7-9f36-cdb23c83a17f
-      parent: 
-        type: block_id
-        block_id: 8826e341-d3df-451b-9e67-60433c6a2cca
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1385,18 +735,6 @@
         children: 
         - 
           object: block
-          id: 2ab64189-aec4-4492-809e-d4b65f2796f5
-          parent: 
-            type: block_id
-            block_id: 29e04c34-5a70-49a7-9f36-cdb23c83a17f
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1419,18 +757,6 @@
             color: default
     - 
       object: block
-      id: b1b9ad94-a4d9-4f4e-809c-3faad3ac3182
-      parent: 
-        type: block_id
-        block_id: 8826e341-d3df-451b-9e67-60433c6a2cca
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1438,18 +764,6 @@
         children: 
         - 
           object: block
-          id: 65e05125-c8e6-4cdc-a5a6-7f0348b95309
-          parent: 
-            type: block_id
-            block_id: b1b9ad94-a4d9-4f4e-809c-3faad3ac3182
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1472,18 +786,6 @@
             color: default
 - 
   object: block
-  id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: true
   archived: false
   type: column_list
@@ -1491,18 +793,6 @@
     children: 
     - 
       object: block
-      id: 8722037b-3e00-42c2-98ec-2dc0e8772f18
-      parent: 
-        type: block_id
-        block_id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1510,18 +800,6 @@
         children: 
         - 
           object: block
-          id: b87b33ff-0fca-497b-872f-a19c12873275
-          parent: 
-            type: block_id
-            block_id: 8722037b-3e00-42c2-98ec-2dc0e8772f18
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1544,18 +822,6 @@
             color: default
     - 
       object: block
-      id: 57d10ccb-8034-491c-8189-185483977a3d
-      parent: 
-        type: block_id
-        block_id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1563,18 +829,6 @@
         children: 
         - 
           object: block
-          id: 91b40221-65ef-412d-9e90-e9411b03dbe8
-          parent: 
-            type: block_id
-            block_id: 57d10ccb-8034-491c-8189-185483977a3d
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1597,18 +851,6 @@
             color: default
     - 
       object: block
-      id: bf67fef3-4693-4df0-9509-f7dbe548f498
-      parent: 
-        type: block_id
-        block_id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1616,18 +858,6 @@
         children: 
         - 
           object: block
-          id: 982708c3-6c6d-45af-91a2-ea4bbf79c8fc
-          parent: 
-            type: block_id
-            block_id: bf67fef3-4693-4df0-9509-f7dbe548f498
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1650,18 +880,6 @@
             color: default
     - 
       object: block
-      id: c4b7d9ef-1eda-4aba-9b03-7bf9c9042aef
-      parent: 
-        type: block_id
-        block_id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1669,18 +887,6 @@
         children: 
         - 
           object: block
-          id: 71c0e12f-2f5e-4fee-b9a7-b686ca547da9
-          parent: 
-            type: block_id
-            block_id: c4b7d9ef-1eda-4aba-9b03-7bf9c9042aef
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1703,18 +909,6 @@
             color: default
     - 
       object: block
-      id: 46d3e357-4b0c-4f67-bc56-37938a1f39d2
-      parent: 
-        type: block_id
-        block_id: 6da2e670-c96c-492b-90da-f7026cf0a0cb
-      created_time: '2023-12-30T11:16:00.000Z'
-      last_edited_time: '2023-12-30T11:16:00.000Z'
-      created_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-      last_edited_by: 
-        object: user
-        id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
       has_children: true
       archived: false
       type: column
@@ -1722,18 +916,6 @@
         children: 
         - 
           object: block
-          id: cf82d116-5fdc-4e78-941d-45e6417c4d10
-          parent: 
-            type: block_id
-            block_id: 46d3e357-4b0c-4f67-bc56-37938a1f39d2
-          created_time: '2023-12-30T11:16:00.000Z'
-          last_edited_time: '2023-12-30T11:16:00.000Z'
-          created_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
-          last_edited_by: 
-            object: user
-            id: 19cc7fc5-54d3-452f-96c0-cf43b45bb023
           has_children: false
           archived: false
           type: paragraph
@@ -1754,109 +936,73 @@
               plain_text: 5 column 5
               href:
             color: default
+# - 
+#   object: block
+#   has_children: false
+#   archived: false
+#   type: paragraph
+#   paragraph: 
+#     rich_text: 
+#     - 
+#       type: mention
+#       mention: 
+#         type: user
+#         user: 
+#           object: user
+#           id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+#           name: someone
+#           avatar_url: https://avatar.url
+#           type: person
+#           person:  {}
+#       annotations: 
+#         bold: false
+#         italic: false
+#         strikethrough: false
+#         underline: false
+#         code: false
+#         color: default
+#       plain_text: "@someone"
+#       href:
+#     color: default
+# - 
+#   object: block
+#   has_children: false
+#   archived: false
+#   type: paragraph
+#   paragraph: 
+#     rich_text: 
+#     - 
+#       type: mention
+#       mention: 
+#         type: page
+#         page: 
+#           id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+#       annotations: 
+#         bold: false
+#         italic: false
+#         strikethrough: false
+#         underline: false
+#         code: false
+#         color: default
+#       plain_text: page
+#       href: https://www.notion.so/{page_id}
+#     - 
+#       type: text
+#       text: 
+#         content: " "
+#         link:
+#       annotations: 
+#         bold: false
+#         italic: false
+#         strikethrough: false
+#         underline: false
+#         code: false
+#         color: default
+#       plain_text: " "
+#       href:
+#     color: default
 - 
   object: block
-  id: aab3675d-b3a1-4e9a-ba96-cf74bc59a471
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: paragraph
-  paragraph: 
-    rich_text: 
-    - 
-      type: mention
-      mention: 
-        type: user
-        user: 
-          object: user
-          id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-          name: kubota
-          avatar_url: https://lh3.googleusercontent.com/a-/AOh14Gh-G_2tM5aq8VzdSNBU5v2FPWw1j61Wxs5PDWI4Fw=s100
-          type: person
-          person:  {}
-      annotations: 
-        bold: false
-        italic: false
-        strikethrough: false
-        underline: false
-        code: false
-        color: default
-      plain_text: "@kubota"
-      href:
-    color: default
-- 
-  object: block
-  id: '0900535e-4d95-4d39-a757-d43208f57852'
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  has_children: false
-  archived: false
-  type: paragraph
-  paragraph: 
-    rich_text: 
-    - 
-      type: mention
-      mention: 
-        type: page
-        page: 
-          id: d7bf3387-783c-4ee9-aecf-6e40e56b2063
-      annotations: 
-        bold: false
-        italic: false
-        strikethrough: false
-        underline: false
-        code: false
-        color: default
-      plain_text: page
-      href: https://www.notion.so/d7bf3387783c4ee9aecf6e40e56b2063
-    - 
-      type: text
-      text: 
-        content: " "
-        link:
-      annotations: 
-        bold: false
-        italic: false
-        strikethrough: false
-        underline: false
-        code: false
-        color: default
-      plain_text: " "
-      href:
-    color: default
-- 
-  object: block
-  id: 0e7773dd-4c87-446f-bf06-44a026831038
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: paragraph
@@ -1867,7 +1013,7 @@
       mention: 
         type: date
         date: 
-          start: '2023-12-16'
+          start: '2023-12-25'
           end:
           time_zone:
       annotations: 
@@ -1877,7 +1023,7 @@
         underline: false
         code: false
         color: default
-      plain_text: '2023-12-16'
+      plain_text: '2023-12-25'
       href:
     - 
       type: text
@@ -1896,18 +1042,6 @@
     color: default
 - 
   object: block
-  id: '087a7e48-ab26-4c58-9138-96d99fc6b5f7'
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: paragraph
@@ -1930,18 +1064,6 @@
     color: default
 - 
   object: block
-  id: d56ffb82-cfd0-4b8f-be32-c74aed0084ef
-  parent: 
-    type: page_id
-    page_id: dc5f95ec-19c3-4465-a21d-08483d28c2b3
-  created_time: '2023-12-30T11:53:00.000Z'
-  last_edited_time: '2023-12-30T11:53:00.000Z'
-  created_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
-  last_edited_by: 
-    object: user
-    id: ed2dcfd0-cc82-4b4f-949c-0c2982ac1396
   has_children: false
   archived: false
   type: paragraph
