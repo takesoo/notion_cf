@@ -42,7 +42,7 @@ module NotionCf
       raise NotImplementedError
     end
 
-    def create(_client)
+    def deploy(_client, _parent_id = nil)
       raise NotImplementedError
     end
 

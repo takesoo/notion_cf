@@ -15,9 +15,12 @@ module NotionCf
     def deploy(client, parent_id)
       return if linked_database?
 
-      parent = { parent: { page_id: parent_id } }
-      parameter = @attributes.except(:request_id).merge(parent)
-      client.create_database(parameter)
+      unless @id.nil?
+        update(client)
+        return
+      end
+
+      create(client, parent_id)
     end
 
     def available_type?
@@ -32,6 +35,19 @@ module NotionCf
       database_detail = client.database(database_id: @id)
       parent = blueprints.detect { |h| h[:id] == @id }
       parent[:child_database].merge!(database_detail)
+    end
+
+    private
+
+    def create(client, parent_id)
+      parent = { parent: { page_id: parent_id } }
+      parameter = @attributes.except(:request_id).merge(parent)
+      client.create_database(parameter)
+    end
+
+    def update(client)
+      parameter = @attributes.except(:request_id, :parent)
+      client.update_database(database_id: @id, parameter:)
     end
   end
 end

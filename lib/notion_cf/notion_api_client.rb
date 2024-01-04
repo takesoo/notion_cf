@@ -16,6 +16,10 @@ module NotionCf
       children
     end
 
+    def retrieve_children(block_id)
+      @client.block_children(block_id:)[:results]
+    end
+
     def page(page_id:)
       @client.page(page_id:)
     end
@@ -36,8 +40,16 @@ module NotionCf
       @client.create_page(parameter)
     end
 
-    def retrieve_children(block_id)
-      @client.block_children(block_id:)[:results]
+    def update_block(id:, parameter:)
+      @client.update_block(block_id: id, **parameter)
+    end
+
+    def update_database(database_id:, parameter:)
+      @client.update_database(database_id:, **parameter)
+    end
+
+    def update_page(page_id:, parameter:)
+      @client.update_page(page_id:, **parameter)
     end
   end
 end
