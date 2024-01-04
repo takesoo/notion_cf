@@ -11,16 +11,12 @@ module NotionCf
     end
 
     def deploy(blueprints)
-      block_blueprints = []
       blueprints.each do |blueprint|
         resource = NotionCf::Resource.build_resource(blueprint)
-        if resource.block?
-          add_blueprints(resource, block_blueprints)
-          next
-        end
-        append_up_to_now(block_blueprints, resource)
+        next if resource.nil?
+
+        resource.deploy(@client, @page_id)
       end
-      block_append_children(block_blueprints)
     end
 
     def retrieve

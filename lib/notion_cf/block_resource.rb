@@ -7,6 +7,12 @@ module NotionCf
       true
     end
 
+    def deploy(client, parent_id = nil)
+      children = [@blueprint.slice(@type.to_sym)]
+      block_id = parent_id || @parent[:id]
+      client.block_append_children(block_id:, children:)
+    end
+
     def create(_client) = nil
 
     def retrieve_additional_information(client, blueprints)

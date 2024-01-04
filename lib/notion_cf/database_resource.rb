@@ -12,8 +12,11 @@ module NotionCf
       @attributes[:title].empty?
     end
 
-    def create(client)
-      parameter = @attributes.except(:request_id)
+    def deploy(client, parent_id)
+      return if linked_database?
+
+      parent = { parent: { page_id: parent_id } }
+      parameter = @attributes.except(:request_id).merge(parent)
       client.create_database(parameter)
     end
 

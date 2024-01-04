@@ -7,8 +7,9 @@ module NotionCf
       false
     end
 
-    def create(client)
-      parameter = @attributes.except(:request_id, :title)
+    def deploy(client, parent_id)
+      parent = { parent: { page_id: parent_id } }
+      parameter = @attributes.except(:request_id, :title).merge(parent)
       client.create_page(parameter)
     end
 

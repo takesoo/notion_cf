@@ -15,6 +15,8 @@ module NotionCf
     class << self
       # ファクトリーメソッド
       def build_resource(blueprint)
+        return unless blueprint
+
         case blueprint[:type]
         when 'child_database'
           NotionCf::DatabaseResource.new(blueprint)
