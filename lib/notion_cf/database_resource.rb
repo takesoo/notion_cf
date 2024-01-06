@@ -46,7 +46,8 @@ module NotionCf
     end
 
     def update(client)
-      parameter = @attributes.except(:request_id, :parent)
+      parameter = @attributes.except(:request_id, :parent, :created_by, :last_edited_by, :last_edited_time, 
+                                     :created_time)
       client.update_database(database_id: @id, parameter:)
     end
   end

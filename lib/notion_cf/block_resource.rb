@@ -40,7 +40,7 @@ module NotionCf
 
     def update(client)
       # TODO: 既存ブロックと差異がなければ更新しないようにする
-      parameter = @blueprint.slice(@type.to_sym, :archived)
+      parameter = format_parameter
       client.update_block(id: @id, parameter:)
       return unless @has_children
 
@@ -49,6 +49,29 @@ module NotionCf
         resource = NotionCf::Resource.build_resource(child)
         resource.deploy(client, @id)
       end
+    end
+
+    # TODO: これ以上条件分岐が複雑になるならストラテジパターンにする
+    def format_parameter
+      parameter = extract_parameter
+      clean_attrs(parameter)
+    end
+
+    def extract_parameter
+      if %w[column column_list].include?(@type)
+        @blueprint.slice(:archived)
+      else
+        @blueprint.slice(@type.to_sym, :archived)
+      end
+    end
+
+    def clean_attrs(parameter)
+      attrs = parameter[@type.to_sym]
+      if attrs && !attrs.empty?
+        parameter[@type.to_sym] = parameter[@type.to_sym].except(:children, :table_width)
+        parameter[@type.to_sym] = parameter[@type.to_sym].except(:type) if %w[image video file].include?(@type)
+      end
+      parameter
     end
   end
 end
