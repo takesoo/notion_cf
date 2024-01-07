@@ -8,9 +8,9 @@ module NotionCf
       puts NotionCf::VERSION
     end
 
-    desc 'deploy PAGE_ID TEMPLATE_FILE', 'Generate a new Notion page'
-    def deploy(page_id, template_file)
-      blueprints = Template.build_from_file(file: template_file).blueprints
+    desc 'deploy PAGE_ID TEMPLATE_FILE_PATH', 'Generate a new Notion page'
+    def deploy(page_id, template_file_path)
+      blueprints = Template.build_from_file(file_path: template_file_path).blueprints
       NotionCf::Resources.new(page_id:).deploy(blueprints)
       generate(page_id)
     end

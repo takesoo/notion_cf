@@ -6,10 +6,10 @@ module NotionCf
     attr_reader :blueprints
 
     class << self
-      def build_from_file(file:)
-        raise 'file is required' unless file
+      def build_from_file(file_path:)
+        raise ArgumentError, 'file_path is required' unless file_path
 
-        string_key_hash = YAML.load_file("templates/#{file}")
+        string_key_hash = YAML.load_file(file_path)
         blueprints = JSON.parse(string_key_hash.to_json, symbolize_names: true)
         new(blueprints:)
       end
