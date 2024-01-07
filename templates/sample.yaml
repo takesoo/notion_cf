@@ -25,6 +25,36 @@
   object: block
   has_children: false
   archived: false
+  type: child_page
+  child_page: 
+    title: child_page
+    object: page
+    cover:
+    icon:
+    archived: false
+    properties: 
+      title: 
+        id: title
+        type: title
+        title: 
+        - 
+          type: text
+          text: 
+            content: child_page
+            link:
+          annotations: 
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: default
+          plain_text: child_page
+          href:
+- 
+  object: block
+  has_children: false
+  archived: false
   type: to_do
   to_do: 
     rich_text: 
