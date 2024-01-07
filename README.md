@@ -28,7 +28,7 @@ And then, set your secret_key.
 ```
 # deploy from template file
 
-notion_cf deploy template/sample.yaml
+notion_cf deploy {page_id} template/sample.yaml
 
 # generate template file from exist page
 notion_cf generate {page_id}
