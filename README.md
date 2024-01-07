@@ -1,8 +1,6 @@
 # NotionCf
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/notion_cf`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a CLI that allows you to manage Notion blocks, databases, and pages like AWS Cloud Formation using YAML files.
 
 ## Installation
 
@@ -17,7 +15,15 @@ Run `bundle install`.
 ## Usage
 ### 1. Create a New Integration
 
-### 2. Type Command
+To create a new integration, follow the steps 1 & 2 outlined in the [Notion documentation](https://developers.notion.com/docs/getting-started#getting-started). The “Internal Integration Token” is what is going to be used to authenticate API calls (referred to here as the “API token”).
+
+### 2. Set .env
+```
+cp .env.sample .env
+```
+And then, set your secret_key.
+
+### 3. Type Command
 
 ```
 # deploy from template file
