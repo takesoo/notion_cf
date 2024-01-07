@@ -33,6 +33,7 @@ module NotionCf
     private
 
     def create(client, parent_id = nil)
+      puts "create block: { type: #{@type}}"
       children = [@blueprint.slice(@type.to_sym)]
       block_id = parent_id || @parent[:id]
       client.block_append_children(block_id:, children:)
@@ -40,6 +41,7 @@ module NotionCf
 
     def update(client)
       # TODO: 既存ブロックと差異がなければ更新しないようにする
+      puts "update block: { type: #{@type}, id: #{@id} }"
       parameter = format_parameter
       client.update_block(id: @id, parameter:)
       return unless @has_children

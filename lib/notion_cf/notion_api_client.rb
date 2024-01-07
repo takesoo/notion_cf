@@ -41,7 +41,6 @@ module NotionCf
     end
 
     def update_block(id:, parameter:)
-      parameter
       @client.update_block(block_id: id, **parameter)
     end
 

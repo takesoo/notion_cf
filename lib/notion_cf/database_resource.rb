@@ -40,12 +40,14 @@ module NotionCf
     private
 
     def create(client, parent_id)
+      puts 'create database'
       parent = { parent: { page_id: parent_id } }
       parameter = @attributes.except(:request_id).merge(parent)
       client.create_database(parameter)
     end
 
     def update(client)
+      puts "update database: { id: #{@id} }"
       parameter = @attributes.except(:request_id, :parent, :created_by, :last_edited_by, :last_edited_time, 
                                      :created_time)
       client.update_database(database_id: @id, parameter:)
