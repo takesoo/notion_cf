@@ -19,10 +19,11 @@ module NotionCf
       @blueprints = blueprints
     end
 
-    def create(page_id)
+    def create(resource_id)
       # ハッシュをyamlに変換する際に出力される!ruby/hash:Notion::Blockみたいな文字列を削除する
       yaml = YAML.dump(blueprints).gsub(%r{!ruby/(\w|:)*}, '')
-      file_path = "templates/#{page_id}.yaml"
+      dir = blueprints.is_a?(Array) ? 'page_contents' : blueprints['object']
+      file_path = "templates/#{dir}/#{resource_id}.yaml"
       File.open(file_path, 'w') { |file| file.write(yaml) }
       file_path
     end

@@ -15,6 +15,7 @@ require_relative 'notion_cf/resource'
 require_relative 'notion_cf/block_resource'
 require_relative 'notion_cf/page_resource'
 require_relative 'notion_cf/database_resource'
+require_relative 'notion_cf/child_database_resource'
 require 'pry-byebug'
 
 module NotionCf
