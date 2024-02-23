@@ -19,7 +19,7 @@ module NotionCf
 
         case blueprint[:type]
         when 'child_database'
-          NotionCf::ChildDatabaseResource.new(blueprint)
+          NotionCf::DatabaseResource.new(blueprint)
         when 'child_page'
           NotionCf::PageResource.new(blueprint)
         else
@@ -35,7 +35,7 @@ module NotionCf
       @type = blueprint[:type]
       @parent = blueprint[:parent]
       @has_children = blueprint[:has_children]
-      @attributes = blueprint[@type&.to_sym]
+      @attributes = blueprint[@type.to_sym]
     end
 
     def block?
